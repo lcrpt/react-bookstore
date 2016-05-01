@@ -1,0 +1,57 @@
+/*/////////////////////////////////////////////
+                MAIN RULES
+/////////////////////////////////////////////*/
+body{
+  font-family: proxima-nova,Arial,sans-serif;
+  line-height: 1.4;
+  color: #333;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+/*/////////////////////////////////////////////
+              SUB HEADER
+/////////////////////////////////////////////*/
+.sub-header-wrapper{
+  margin-top: -20px;
+  margin-bottom: 50px;
+  height: 300px;
+  width: 100%;
+  background-image: url(https://d1391wyf4k6d6v.cloudfront.net/misc/l/101.jpg);
+}
+.sub-header-title h1{
+  color: #FFF;
+  text-align: center;
+  padding-top: 120px;
+}
+/*/////////////////////////////////////////////
+              BOOK ITEMS
+/////////////////////////////////////////////*/
+.book-item{
+  heigth: 500px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px;
+  display: inline-block;
+  max-height: 500px;
+}
+.book-item img{
+  heigth: auto;
+  width: 100%;
+}
+
+.book-detail{
+  heigth: auto;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.book-detail img{
+  heigth: auto;
+  width: 100%;
+}
